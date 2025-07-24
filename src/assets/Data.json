@@ -1,0 +1,57 @@
+[
+  {
+    "name": "Gmail",
+    "icon": "/gmail.png",
+    "url": "https://gmail.com"
+  },
+  {
+    "name": "Drive",
+    "icon": "/drive.png",
+    "url": "https://drive.google.com/drive/my-drive"
+  },
+  {
+    "name": "Docs",
+    "icon": "/doc.png",
+    "url": "https://docs.google.com/document/u/0/"
+  },
+  {
+    "name": "GitHub",
+    "icon": "/github.png",
+    "url": "https://github.com/maf256"
+  },
+  {
+    "name": "YouTube",
+    "icon": "/youtube.png",
+    "url": "https://youtube.com"
+  },
+  {
+    "name": "LinkedIn",
+    "icon": "/linkedin.png",
+    "url": "https://linkedin.com"
+  },
+  {
+    "name": "TV NRK",
+    "icon": "/nrktv.png",
+    "url": "https://tv.nrk.no/"
+  },
+  {
+    "name": "Klar tale",
+    "icon": "/klartale.png",
+    "url": "https://klartale.no/"
+  },
+  {
+    "name": "Chat GPT",
+    "icon": "/openai.png",
+    "url": "https://chat.openai.com"
+  },
+  {
+    "name": "Facebook",
+    "icon": "/facebook.png",
+    "url": "https://www.facebook.com/"
+  },
+  {
+    "name": "Finn",
+    "icon": "/finn.png",
+    "url": "https://finn.no"
+  }
+]
