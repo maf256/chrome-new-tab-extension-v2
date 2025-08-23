@@ -7,7 +7,8 @@ export default function Bookmarks() {
       {
         Data.map((item, index) => {
           return (
-            <a href={item.url} key={index} className="flex gap-2 items-center">
+            <a href={item.url} key={index} 
+                className="flex gap-2 items-center border-2 border-[#202020] hover:border-blue-100">
               <img src={item.icon} alt={item.name} className="w-7 h-7" />
             </a >
           )

@@ -14,11 +14,13 @@ export default function Crypto() {
         {
           coins.map((item, index) => 
              (
-              <div key={item.id} className="flex p-0 m-0 items-center h-fit">
+              <div key={item.id} className="flex p-0 m-0 items-center h-fit font-bold text-lg border">
                 <img src={item.image} alt={item.name} className="w-7 h-7" />
-                <span>{item.name}</span>
-                <span>${item.current_price}</span>
-                {item.price_change_percentage_24h > 0 ? <span className="text-green-500">{item.price_change_percentage_24h}</span> : <span className="text-red-500">{item.price_change_percentage_24h}</span>}
+                <span>{item.name}:</span>
+                <span className=""> ${item.current_price.toLocaleString()} -  </span>
+                {item.price_change_percentage_24h > 0 ? 
+                  <span className="text-green-500 ">{item.price_change_percentage_24h.toLocaleString()}</span> : 
+                  <span className="text-red-500 ">{item.price_change_percentage_24h}</span>}
               </div>
             )
           )
